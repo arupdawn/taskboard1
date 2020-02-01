@@ -1,0 +1,172 @@
+.App-header {
+  background-color: rgb(224, 224, 224);
+  height: 75px;
+  padding: 0.1px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: rgb(34, 32, 32);
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+.App-title {
+  font-size: 32px;
+}
+.ContainerT{
+  margin-bottom :8px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: rgb(233, 233, 233);
+  margin-left:2px;
+  width: 100%;
+  text-align: left;
+}
+
+
+
+.TasklistC{
+  padding: 8px;
+}
+
+.TitleC{
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  text-align: center;
+  color: white;
+  border: 0px solid ;
+  border-radius: 0px;
+  box-shadow:  3px 7px 10px #7e7e7e;
+  background-color: rgb(143, 118, 95);
+  height: 30px;
+  line-height: 13px;
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/46/60/lgyLMe.jpg');
+  
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.simple-page{
+  margin-left: 2px;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  overflow:auto;
+}
+
+.draggable-item{
+  padding: 8px;
+  height: 40px;
+  line-height: 20px;
+  text-align: left;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  outline: 0;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  padding-left: 18px;
+  box-shadow:  3px 7px 10px #bebebe;
+  opacity: 2.0;
+  max-width: 270px;
+  height:auto;
+}
+
+.draggable-item-horizontal{
+  height: 300px;
+  padding: 10px;
+  line-height: 100px;
+  text-align: center;
+  /* width : 200px; */
+  display: block;
+  background-color: #fff;
+  outline: 0;
+  border: 1px solid rgba(0,0,0,.125);
+  margin-right: 4px;
+}
+
+.opacity-ghost {
+  
+  transition: all .18s ease;
+  opacity: 0.8;
+  cursor: ns-resize;
+  /* transform: rotateZ(5deg); */
+  background-color: rgb(199, 199, 199);
+  box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+  cursor: ns-resize;
+
+}
+
+.opacity-ghost-drop {
+  opacity: 1;
+  /* transform: rotateZ(0deg); */
+  background-color: white;
+  box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.0);
+}
+
+.App {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+*{
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+}
+
+
+
+.btn{
+  margin: auto;
+  text-align: left;
+}
+
+.BtnSubmit{
+  margin-top: -5px;
+}
+
+.Addtask{
+  margin-top: 10px;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.Btnclose{
+  margin-top: -6px;
+  margin-left: 5px;
+}
+
+.BtnDeleteAll{
+  margin-top: -6px;
+  float: right;
+  height: 25px;
+  border-radius: 20px;
+  width: 35px;
+  line-height: 10px;
+  background-color: rgb(243, 209, 209);
+}
+
+
+.Txtarea{
+  margin-top: 6px;
+}
+
